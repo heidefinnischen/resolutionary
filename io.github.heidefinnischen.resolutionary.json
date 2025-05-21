@@ -29,9 +29,10 @@
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/heidefinnischen/resolutionary.git",
-                    "tag" : "v.1.0.0"
+                    "type" : "archive",
+                    "url" : "https://github.com/heidefinnischen/resolutionary/archive/refs/tags/v1.0.0.tar.gz",
+                    "sha256" : "27abb39a595540b6ab22941dbf180c58f5e981b1f1d4cb5b28c72a0528f217b2",
+                    "dest" : "resolutionary"
                 }
             ]
         }
