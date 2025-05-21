@@ -1,1 +1,1 @@
-i18n.gettext('effective_screen_resolution_calculator', preset: 'glib')
+i18n.gettext('resolutionary', preset: 'glib')

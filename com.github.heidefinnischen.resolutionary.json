@@ -1,9 +1,9 @@
 {
-    "id" : "com.github.heidefinnischen.effective_screen",
+    "id" : "com.github.heidefinnischen.resolutionary",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
-    "command" : "effective_screen_resolution_calculator",
+    "command" : "resolutionary",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -24,13 +24,13 @@
     ],
     "modules" : [
         {
-            "name" : "effective_screen_resolution_calculator",
+            "name" : "resolutionary",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "file:///home/janniklaskuhn/Projects"
+                    "url" : "https://github.com/heidefinnischen/resolutionary.git"
                 }
             ]
         }

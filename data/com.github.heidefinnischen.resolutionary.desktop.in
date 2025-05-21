@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Resolutionary
-Exec=effective_screen_resolution_calculator
-Icon=com.github.heidefinnischen.effective_screen
+Exec=resolutionary
+Icon=com.github.heidefinnischen.resolutionary
 Terminal=false
 Type=Application
 Categories=Utility;

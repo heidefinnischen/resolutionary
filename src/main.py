@@ -25,16 +25,16 @@ gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
 from gi.repository import Gtk, Gio, Adw
-from .window import EffectiveScreenResolutionCalculatorWindow
+from .window import ResolutionaryWindow
 
 
-class EffectiveScreenResolutionCalculatorApplication(Adw.Application):
+class ResolutionaryApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='com.github.heidefinnischen.effective_screen',
+        super().__init__(application_id='com.github.heidefinnischen.resolutionary',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS,
-                         resource_base_path='/com/github/heidefinnischen/effective_screen')
+                         resource_base_path='/com/github/heidefinnischen/resolutionary')
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('preferences', self.on_preferences_action)
@@ -57,14 +57,14 @@ class EffectiveScreenResolutionCalculatorApplication(Adw.Application):
         """
         win = self.props.active_window
         if not win:
-            win = EffectiveScreenResolutionCalculatorWindow(application=self)
+            win = ResolutionaryWindow(application=self)
         win.present()
         print("window activated")
 
     def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutDialog(application_name='Resolutionary',
-                                application_icon='com.github.heidefinnischen.effective_screen',
+                                application_icon='com.github.heidefinnischen.resolutionary',
                                 developer_name='Jan-Niklas Kuhn',
                                 version='1.0.0',
                                 developers=['Jan-Niklas Kuhn'],
@@ -96,5 +96,5 @@ class EffectiveScreenResolutionCalculatorApplication(Adw.Application):
 
 def main(version):
     """The application's entry point."""
-    app = EffectiveScreenResolutionCalculatorApplication()
+    app = ResolutionaryApplication()
     return app.run(sys.argv)

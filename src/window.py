@@ -20,9 +20,9 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-@Gtk.Template(resource_path='/com/github/heidefinnischen/effective_screen/window.ui')
-class EffectiveScreenResolutionCalculatorWindow(Adw.ApplicationWindow):
-    __gtype_name__ = 'EffectiveScreenResolutionCalculatorWindow'
+@Gtk.Template(resource_path='/com/github/heidefinnischen/resolutionary/window.ui')
+class ResolutionaryWindow(Adw.ApplicationWindow):
+    __gtype_name__ = 'ResolutionaryWindow'
 
     width_entry = Gtk.Template.Child()
     height_entry = Gtk.Template.Child()

@@ -1,4 +1,4 @@
-application_id = 'com.github.heidefinnischen.effective_screen'
+application_id = 'com.github.heidefinnischen.resolutionary'
 
 scalable_dir = 'hicolor' / 'scalable' / 'apps'
 install_data(

@@ -1,6 +1,6 @@
 #!@PYTHON@
 
-# effective_screen_resolution_calculator.in
+# resolutionary.in
 #
 # Copyright 2025 Jan-Niklas Kuhn
 #
@@ -31,16 +31,16 @@ localedir = '@localedir@'
 
 sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
-locale.bindtextdomain('effective_screen_resolution_calculator', localedir)
-locale.textdomain('effective_screen_resolution_calculator')
-gettext.install('effective_screen_resolution_calculator', localedir)
+locale.bindtextdomain('resolutionary', localedir)
+locale.textdomain('resolutionary')
+gettext.install('resolutionary', localedir)
 
 if __name__ == '__main__':
     import gi
 
     from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'effective_screen_resolution_calculator.gresource'))
+    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'resolutionary.gresource'))
     resource._register()
 
-    from effective_screen_resolution_calculator import main
+    from resolutionary import main
     sys.exit(main.main(VERSION))

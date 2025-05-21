@@ -3,7 +3,7 @@
   <requires lib="gtk" version="4.0"/>
   <requires lib="Adw" version="1.0"/>
 
-  <template class="EffectiveScreenResolutionCalculatorWindow" parent="AdwApplicationWindow">
+  <template class="ResolutionaryWindow" parent="AdwApplicationWindow">
     <property name="title" translatable="yes"></property>
     <property name="default-width">700</property>
     <property name="default-height">200</property>
