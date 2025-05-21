@@ -66,7 +66,7 @@ class ResolutionaryApplication(Adw.Application):
         about = Adw.AboutDialog(application_name='Resolutionary',
                                 application_icon='io.github.heidefinnischen.resolutionary',
                                 developer_name='Jan-Niklas Kuhn',
-                                version='1.0.1',
+                                version='1.0.2',
                                 developers=['Jan-Niklas Kuhn'],
                                 copyright='© 2025 Jan-Niklas Kuhn')
         # Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
