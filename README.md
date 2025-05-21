@@ -15,7 +15,7 @@ Light | Dark
 <br><br>
 
 <h2> Info </h2>
-Resolutionary is a simple app that basically calculates the logical resolution of the UI. On high resolution displays your scaling is likely to be something like 150%, 225%, or even higher. This means that while your display resolution might be 3840x2160 (or 4K) the content is scaled at 150% to be comfortable for viewing, which means your effective screen real estate is like a 2560x1440 display. You can enter any arbitrary resolution and scale starting at 100% and over, which helps especially with GNOME fractional scaling steps in 25% increments. 
+Resolutionary is a simple app that basically calculates the logical resolution of the UI. On high resolution displays your scaling is likely to be something like 150%, 225%, or even higher. This means that while your display resolution might be 3840x2160 (or 4K) the content is scaled at 150% to be comfortable for viewing, which means your effective screen real estate is like on a 2560x1440 display. You can enter any arbitrary resolution and scale starting at 100% and over, which helps especially with GNOME fractional scaling steps in 25% increments. 
 <br><br><br>
 
 <h2> Made for the GNOME environment </h2>
