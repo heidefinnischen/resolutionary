@@ -32,9 +32,9 @@ class ResolutionaryApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='com.github.heidefinnischen.resolutionary',
+        super().__init__(application_id='io.github.heidefinnischen.resolutionary',
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS,
-                         resource_base_path='/com/github/heidefinnischen/resolutionary')
+                         resource_base_path='/io/github/heidefinnischen/resolutionary')
         self.create_action('quit', lambda *_: self.quit(), ['<primary>q'])
         self.create_action('about', self.on_about_action)
         self.create_action('preferences', self.on_preferences_action)
@@ -64,7 +64,7 @@ class ResolutionaryApplication(Adw.Application):
     def on_about_action(self, *args):
         """Callback for the app.about action."""
         about = Adw.AboutDialog(application_name='Resolutionary',
-                                application_icon='com.github.heidefinnischen.resolutionary',
+                                application_icon='io.github.heidefinnischen.resolutionary',
                                 developer_name='Jan-Niklas Kuhn',
                                 version='1.0.0',
                                 developers=['Jan-Niklas Kuhn'],

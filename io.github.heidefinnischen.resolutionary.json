@@ -1,5 +1,5 @@
 {
-    "id" : "com.github.heidefinnischen.resolutionary",
+    "id" : "io.github.heidefinnischen.resolutionary",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
@@ -30,7 +30,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/heidefinnischen/resolutionary.git"
+                    "url" : "https://github.com/heidefinnischen/resolutionary.git",
+                    "tag" : "v.1.0.0"
                 }
             ]
         }

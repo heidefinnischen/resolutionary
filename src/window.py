@@ -20,7 +20,7 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-@Gtk.Template(resource_path='/com/github/heidefinnischen/resolutionary/window.ui')
+@Gtk.Template(resource_path='/io/github/heidefinnischen/resolutionary/window.ui')
 class ResolutionaryWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'ResolutionaryWindow'
 

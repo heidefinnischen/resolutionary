@@ -25,7 +25,7 @@
   <!-- <translation type="gettext">effective_screen_resolution_calculator</translation> -->
   <!-- All graphical applications having a desktop file must have this tag in the MetaInfo.
      If this is present, appstreamcli compose will pull icons, keywords and categories from the desktop file. -->
-  <launchable type="desktop-id">com.github.heidefinnischen.resolutionary.desktop</launchable>
+  <launchable type="desktop-id">io.github.heidefinnischen.resolutionary.desktop</launchable>
   <!-- Use the OARS website (https://hughsie.github.io/oars/generate.html) to generate these and make sure to use oars-1.1 -->
   <content_rating type="oars-1.1" />
 

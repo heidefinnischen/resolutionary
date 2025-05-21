@@ -1,8 +1,8 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-data/com.github.heidefinnischen.resolutionary.desktop.in
-data/com.github.heidefinnischen.resolutionary.metainfo.xml.in
-data/com.github.heidefinnischen.resolutionary.gschema.xml
+data/io.github.heidefinnischen.resolutionary.desktop.in
+data/io.github.heidefinnischen.resolutionary.metainfo.xml.in
+data/io.github.heidefinnischen.resolutionary.gschema.xml
 src/main.py
 src/window.py
 src/window.ui
