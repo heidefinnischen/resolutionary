@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/com.github.heidefinnischen.effective_screen.desktop.in
+data/com.github.heidefinnischen.effective_screen.metainfo.xml.in
+data/com.github.heidefinnischen.effective_screen.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

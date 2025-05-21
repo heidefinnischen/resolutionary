@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.github.heidefinnischen.effective_screen
+Exec=@bindir@/effective_screen_resolution_calculator --gapplication-service
