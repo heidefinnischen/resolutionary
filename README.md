@@ -1,8 +1,8 @@
 
-![Icon](data/icons/hicolor/scalable/apps/io.github.heidefinnischen.resolutionary.svg)
-# Resolutionary
-<h3>Calculate your screen's UI Resolution</h3>
-<br>
+![Hero Dark](https://github.com/heidefinnischen/resolutionary/blob/3f3c5dd4aca5f49327dba2b959504f609060c8f3/data/resources/hero-dark.png#gh-dark-mode-only)
+![Hero Light](https://github.com/heidefinnischen/resolutionary/blob/3f3c5dd4aca5f49327dba2b959504f609060c8f3/data/resources/hero-light.png#gh-light-mode-only)
+
+
 Do you have a shiny new High-DPI laptop with billions of pixels? Your UI Scale is set to 350% and you would like to know what equivalent Low-DPI resolution that would be? Resolutionary allows you to enter your displays resolution and desired UI scaling and using simple python scripting out comes the resolution if your screen didn't have any of those extra pixels.
 
 ![Preview Dark](https://github.com/heidefinnischen/resolutionary/blob/239a8ceb59640c2689fa2409b7861c415ef95ebe/data/screenshots/start-dark.png#gh-dark-mode-only)
