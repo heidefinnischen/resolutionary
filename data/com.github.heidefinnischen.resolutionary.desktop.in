@@ -1,10 +1,12 @@
 [Desktop Entry]
 Name=Resolutionary
+GenericName=Display scaling calculator
 Exec=resolutionary
 Icon=io.github.heidefinnischen.resolutionary
 Terminal=false
 Type=Application
 Categories=Utility;
-Keywords=GTK;resolution;screen;calculator;
+Keywords=GTK;resolution;screen;calculator;dpi;scaling;display;
+X-GNOME-Gettext-Domain=io.github.heidefinnischen.resolutionary
 StartupNotify=true
 DBusActivatable=true
