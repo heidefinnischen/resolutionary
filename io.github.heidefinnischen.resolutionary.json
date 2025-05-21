@@ -5,7 +5,6 @@
     "sdk" : "org.gnome.Sdk",
     "command" : "resolutionary",
     "finish-args" : [
-        "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
@@ -31,8 +30,7 @@
                 {
                     "type" : "archive",
                     "url" : "https://github.com/heidefinnischen/resolutionary/archive/refs/tags/v1.0.0.tar.gz",
-                    "sha256" : "27abb39a595540b6ab22941dbf180c58f5e981b1f1d4cb5b28c72a0528f217b2",
-                    "dest" : "resolutionary"
+                    "sha256" : "8a3d0d03b236e662510d7f0cfe4cf6d8544e7a5d3b425e197fff0763fee7f419"
                 }
             ]
         }
