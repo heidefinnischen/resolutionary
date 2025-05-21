@@ -37,25 +37,25 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/heidefinnischen/resolutionary/blob/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/start-light.png</image>
+      <image>https://raw.githubusercontent.com/heidefinnischen/resolutionary/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/start-light.png</image>
       <caption>Light mode screenshot of Resolutionary at startup</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/heidefinnischen/resolutionary/blob/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/sample-light.png</image>
+      <image>https://raw.githubusercontent.com/heidefinnischen/resolutionary/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/sample-light.png</image>
       <caption>Light mode screenshot showing a user entering their display details for their laptop</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/heidefinnischen/resolutionary/blob/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/start-dark.png</image>
+      <image>https://raw.githubusercontent.com/heidefinnischen/resolutionary/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/start-dark.png</image>
       <caption>Dark mode screenshot of Resolutionary at startup</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/heidefinnischen/resolutionary/blob/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/sample-dark.png</image>
+      <image>https://raw.githubusercontent.com/heidefinnischen/resolutionary/b27d498e8dcab018b0640b4062c12f54f23cbbb5/data/screenshots/sample-dark.pnggit</image>
       <caption>Dark mode screenshot showing a user entering their display details for their laptop</caption>
     </screenshot>
   </screenshots>
 
   <releases>
-    <release version="1.0.0" date="2025-05-21">
+    <release version="1.0.1" date="2025-05-21">
       <description translate="no">
         <p>Release</p>
         <ul>
