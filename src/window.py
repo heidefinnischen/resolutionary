@@ -34,7 +34,6 @@ class ResolutionaryWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.set_resizable(False)
-        #self.entry = Gtk.Entry()
 
     def calculate_effective_resolution(self, width, height, scale):
         scale_factor = scale / 100
@@ -58,30 +57,32 @@ class ResolutionaryWindow(Adw.ApplicationWindow):
         values = self.get_input_values()
 
         if values is None:
-            # Invalid input, mark entries as error if empty or non-digit
-            for e in [self.width_entry, self.height_entry, self.scale_entry]:
-                text = e.get_text()
+            # Invalid input, mark entries as error if non-digit
+            for entry in [self.width_entry, self.height_entry, self.scale_entry]:
+                text = entry.get_text()
                 if text == "":
-                    e.remove_css_class("error")
+                    entry.remove_css_class("error")
                 elif not text or not text.isdigit():
-                    e.add_css_class("error")
+                    entry.add_css_class("error")
                 else:
-                    e.remove_css_class("error")
+                    entry.remove_css_class("error")
             self.effective_resolution_output.set_text("")
             self.scale_factor_output.set_text("")
             return
         else:
             # Valid input, remove error classes
-            for e in [self.width_entry, self.height_entry, self.scale_entry]:
-                e.remove_css_class("error")
+            for entry in [self.width_entry, self.height_entry, self.scale_entry]:
+                entry.remove_css_class("error")
 
         width, height, scale = values
         effective_width, effective_height, scale_factor = self.calculate_effective_resolution(width, height, scale)
 
+
+        # Results
         output = f"{effective_width}x{effective_height}"
         output_scale_factor = f"at {scale_factor}x"
 
-        print(f"Result: {effective_width}x{effective_height} at {scale_factor}x")
+        #print(f"Result: {effective_width}x{effective_height} at {scale_factor}x")
         if scale_factor >= 1:
             self.effective_resolution_output.set_text(output)
             self.scale_factor_output.set_text(output_scale_factor)

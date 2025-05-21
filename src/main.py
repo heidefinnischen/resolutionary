@@ -66,12 +66,16 @@ class ResolutionaryApplication(Adw.Application):
         about = Adw.AboutDialog(application_name='Resolutionary',
                                 application_icon='io.github.heidefinnischen.resolutionary',
                                 developer_name='Jan-Niklas Kuhn',
-                                version='1.0.0',
+                                version='1.0.1',
                                 developers=['Jan-Niklas Kuhn'],
                                 copyright='© 2025 Jan-Niklas Kuhn')
         # Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
         about.set_translator_credits(_('translator-credits'))
         about.set_artists(['Jan-Niklas Kuhn'])
+        about.set_designers(['Jan-Niklas Kuhn'])
+        about.set_issue_url('https://github.com/heidefinnischen/resolutionary/issues')
+        about.set_website('https://github.com/heidefinnischen/resolutionary')
+        about.set_license_type(3)
         about.present()
 
     def on_preferences_action(self, widget, _):

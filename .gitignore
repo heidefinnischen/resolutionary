@@ -1,4 +1,6 @@
 .flatpak-builder/
+builddir/
+repo/
 .git/
 *.log
 *.tmp

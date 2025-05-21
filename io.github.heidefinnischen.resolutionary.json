@@ -29,8 +29,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/heidefinnischen/resolutionary/archive/refs/tags/v1.0.0.tar.gz",
-                    "sha256" : "8a3d0d03b236e662510d7f0cfe4cf6d8544e7a5d3b425e197fff0763fee7f419"
+                    "url" : "https://github.com/heidefinnischen/resolutionary/archive/refs/tags/v1.0.1.tar.gz",
+                    "sha256" : "x"
                 }
             ]
         }
