@@ -23,6 +23,8 @@ Resolutionary is best experienced on the GNOME platform. It leverages core GNOME
 <br><br><br><br>
 
 <h2>Manifest for simplicity</h2>
+What warrants an app? How much code is needed to call something an app? Why do we call our “first hello world program” a program? Purpose makes an app.<br><br>
+
 I know this app does just a simple calculation. I know this can be done by multiplying the width and height times the scale factor. I know it is basic.<br><br>
 Yet it doesnt matter what's under the hood. When I'm using a program I dont care how complicated the codebase is. I dont look at the source code of the app I'm using just to make sure it's not basic. When I'm calculating something important, sometimes I put simple math like 12+5 into my calculator. Not because I can't do mental math. It's to be sure. When it's really important to get things right. I'm sure a lot of us do that. GUI apps give security. You can trust the application because it guides you.<br><br>
 There's all kinds of calculators online. There are calculators that let you convert two lengths into an area. Why dont people just put x*y in a calculator? Why do people use these websites and apps? And in most unit conversion tools you can convert meters into centimeters. Why do these apps offer that? Why do we use calculator apps if we could just enter the numbers in a terminal? This is the same conversation we've had over 40 years ago when people questioned the graphical interface in general. User-friendliness should not be underestimated.<br><br>
