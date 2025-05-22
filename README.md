@@ -23,5 +23,5 @@ Resolutionary is best experienced on the GNOME platform. It leverages core GNOME
 <br><br><br>
 
 <h2> Thank you </h2>
-This is my first shipped application and my very first GUI app. This project has helped me a great deal in understanding how the GNOME environment, including GNOME Builder, GTK4, libadwaita, Flatpack and many others work. Yet there is still so much to learn so please let me know about anything I can improve on. Aside from that I also consider myself a beginner to coding in general. And thus the name Resolutionary. 
+The app code is very basic by design as this is my first shipped application and my very first GUI app. The building of this application was testing and learning about GUI app creation. This project has helped me a great deal in understanding how the GNOME environment, including GNOME Builder, GTK4, libadwaita, Flatpak and many others work. Yet there is still so much to learn so please let me know about anything I can improve on. Aside from that I also consider myself a beginner to coding in general. And thus the name Resolutionary. 
 <br><br><br>
