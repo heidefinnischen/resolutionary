@@ -22,7 +22,7 @@ Resolutionary is a simple app that basically calculates the logical resolution o
 Resolutionary is best experienced on the GNOME platform. It leverages core GNOME technologies and is adapted to the GNOME visual style basing on Libadwaita.
 <br><br><br><br>
 
-<h2>Manifest for simplicity</h2>
+<h2>Manifesto for simplicity</h2>
 What warrants an app? How much code is needed to call something an app? Why do we call our “first hello world program” a program? Purpose makes an app.<br><br>
 
 I know this app does just a simple calculation. I know this can be done by multiplying the width and height times the scale factor. I know it is basic.<br><br>
